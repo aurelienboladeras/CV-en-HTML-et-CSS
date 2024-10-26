@@ -87,14 +87,14 @@ color: whitesmoke;
     text-indent: 30px;
     margin-left: 20px;
 }
-#hardskill {
+#hardskill section {
     display: flex;
     flex-direction: column;
     width: 770px;
     background-color: white;
-    border-right: thin solid black;
+    border-right: medium solid black;
 }
-#hardskill h3 {
+#hardskill section h3 {
     display: flex;
     block-size: 30px;
     align-items: center;
@@ -103,15 +103,50 @@ color: whitesmoke;
     margin-left: 40px;
     text-indent: 0.5em;
 }
-#hardskill h4 {
+#hardskill section section {
+    width: 720px;
+    border: none;
+}
+#hardskill section section:hover {
+    border-right: 12px solid #782221;
+}
+#skills:hover {
+    border-right: 12px solid #782221;
+}
+#skils {
+    width: 720px;
+}
+#hardskill section section h4 {
     margin-left: 40px;
     font-weight: bold;
 }
-#hardskill p {
+#hardskill section section p {
     margin-left: 40px;
 }
-#hardskill ul {
+#hardskill section section ul {
     margin-left: 40px;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1160px;
+    background-color: #782221;
+    color: whitesmoke;
+}
+footer address {
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+footer address a {
+    width: 40px;
+    height: 40px;
+}
+footer address a:hover {
+    opacity: 0.65;
 }
 * {
     font-family: "RalewayRegular", Arial, Sans-serif;
